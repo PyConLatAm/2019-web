@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'GT Pressura Bold';
+    src: url('../fonts/gt_pressua_pro/GT-Pressura-Pro-Trial-Bold.otf');
+}
+
+@font-face {
+    font-family: 'GT Pressura Regular';
+    src: url('../fonts/gt_pressua_pro/GT-Pressura-Pro-Trial-Regular.otf');
+}
+
+@font-face {
+    font-family: 'GT Haptik Bold';
+    src: url('../fonts/gt_pressura_pro_m/GT-Haptik-Trial-Bold.otf');
+}
+
+@font-face {
+    font-family: 'GT Haptik Ligth';
+    src: url('../fonts/gt_pressura_pro_m/GT-Haptik-Trial-Light.otf')
+}
+
+@font-face {
+    font-family: 'GT Haptik Trial Bold Oblique';
+    src: url('../fonts/gt_pressura_pro_m/GT-Haptik-Trial-Bold-Oblique.otf');
+}
+
+body {
+    background-image: url("../imgs/background.png"); 
+    background-size: cover;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'GT Pressura Regular';
+    letter-spacing: 3px;
+    font-weight: 580;  
+}
+
+.topnav-right {
+    float: right;
+}
+
+
+section {
+    padding: 100px;
+    border: 0;
+    margin: 0;
+}
+
+.pycon-title {
+    font-family: 'GT Pressura Bold';
+    font-size: 50px;
+    color: rgb(229, 184, 85);
+    text-shadow: 2px 2px 2px rgb(0, 45, 85);
+}
+
+.mailing-list-title {
+    padding: 0 30px 30px 30px;
+    margin: 0px;
+    font-family: 'GT Pressura Bold';
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(212, 131, 54);
+}
+
+.sponsors-title {
+    padding: 0 30px 10px 30px;
+    margin: 0px;
+    font-family: 'GT Pressura Bold';
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(56, 114, 159);
+}
+
+.text {
+    color: white;
+    font-size: 17px;
+    font-family: 'GT Pressura Regular';
+    letter-spacing: 3px;
+    font-weight: 580;  
+}
+
+#pycon {
+    height: 450px;
+}
+
+#mailing-list {
+    background-image: url("../imgs/Wave1.png"), url("../imgs/Wave2.png"), url("../imgs/Wave3.png"); 
+    background-size: cover;
+    height: 500px;
+    padding-top: 250px;
+
+}
+
+#sponsors {
+    background-color: rgb(212, 131, 54);
+}
+
+.center {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+input[type=text] {
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: 0;
+    width: 150px;
+    height: 20px;
+    color: grey;
+}
+
+.left-icon {
+    float: left;
+    height: 100%;
+    padding: 10px;
+}
+
+.right-icon {
+    float: right;
+    height: 100%;
+    padding: 10px;
+}
+
+.subscribe-submit-sect {
+    padding-top: 20px;  
+    display: inline-flex;
+    align-items: center;
+}
+.subscribe-button {
+    background:url("../imgs/right_arrow.png");
+    cursor:pointer;
+    border:none;
+    width:138px;
+    height:66px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 13px;
+    font-family: 'GT Haptik Trial Bold Oblique';
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.sponsor-logos {
+    display:inline-flex;
+    align-items: center;
+    align-content: center;
+}
+
+.sponsor-logos img {
+    padding: 10px;
+}
+
+.sponsor-button {
+    margin-top: 30px;
+    background-color: rgb(48, 175, 189);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.sponsor-button a:hover, a:active {
+    background-color: rgb(48, 175, 189);;
+}
+
+.divider {
+    display: block;
+    padding: 10px;
+    margin: auto;
+}
